@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3864ADAD220890D50022389B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3864ADAC220890D50022389B /* AppDelegate.m */; };
+		3864ADB0220890D50022389B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3864ADAF220890D50022389B /* ViewController.m */; };
+		3864ADB3220890D50022389B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3864ADB1220890D50022389B /* Main.storyboard */; };
+		3864ADB5220890D80022389B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3864ADB4220890D80022389B /* Assets.xcassets */; };
+		3864ADB8220890D80022389B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3864ADB6220890D80022389B /* LaunchScreen.storyboard */; };
+		3864ADBB220890D80022389B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3864ADBA220890D80022389B /* main.m */; };
+		3864ADC5220890D80022389B /* Meal_ReminderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3864ADC4220890D80022389B /* Meal_ReminderTests.m */; };
+		3864ADD0220890D80022389B /* Meal_ReminderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3864ADCF220890D80022389B /* Meal_ReminderUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3864ADC1220890D80022389B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3864ADA0220890D50022389B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3864ADA7220890D50022389B;
+			remoteInfo = "Meal Reminder";
+		};
+		3864ADCC220890D80022389B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3864ADA0220890D50022389B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3864ADA7220890D50022389B;
+			remoteInfo = "Meal Reminder";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3864ADA8220890D50022389B /* Meal Reminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meal Reminder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3864ADAB220890D50022389B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3864ADAC220890D50022389B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3864ADAE220890D50022389B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3864ADAF220890D50022389B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3864ADB2220890D50022389B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3864ADB4220890D80022389B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3864ADB7220890D80022389B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3864ADB9220890D80022389B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3864ADBA220890D80022389B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3864ADC0220890D80022389B /* Meal ReminderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Meal ReminderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3864ADC4220890D80022389B /* Meal_ReminderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Meal_ReminderTests.m; sourceTree = "<group>"; };
+		3864ADC6220890D80022389B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3864ADCB220890D80022389B /* Meal ReminderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Meal ReminderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3864ADCF220890D80022389B /* Meal_ReminderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Meal_ReminderUITests.m; sourceTree = "<group>"; };
+		3864ADD1220890D80022389B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3864ADA5220890D50022389B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3864ADBD220890D80022389B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3864ADC8220890D80022389B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3864AD9F220890D50022389B = {
+			isa = PBXGroup;
+			children = (
+				3864ADAA220890D50022389B /* Meal Reminder */,
+				3864ADC3220890D80022389B /* Meal ReminderTests */,
+				3864ADCE220890D80022389B /* Meal ReminderUITests */,
+				3864ADA9220890D50022389B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3864ADA9220890D50022389B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3864ADA8220890D50022389B /* Meal Reminder.app */,
+				3864ADC0220890D80022389B /* Meal ReminderTests.xctest */,
+				3864ADCB220890D80022389B /* Meal ReminderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3864ADAA220890D50022389B /* Meal Reminder */ = {
+			isa = PBXGroup;
+			children = (
+				3864ADAB220890D50022389B /* AppDelegate.h */,
+				3864ADAC220890D50022389B /* AppDelegate.m */,
+				3864ADAE220890D50022389B /* ViewController.h */,
+				3864ADAF220890D50022389B /* ViewController.m */,
+				3864ADB1220890D50022389B /* Main.storyboard */,
+				3864ADB4220890D80022389B /* Assets.xcassets */,
+				3864ADB6220890D80022389B /* LaunchScreen.storyboard */,
+				3864ADB9220890D80022389B /* Info.plist */,
+				3864ADBA220890D80022389B /* main.m */,
+			);
+			path = "Meal Reminder";
+			sourceTree = "<group>";
+		};
+		3864ADC3220890D80022389B /* Meal ReminderTests */ = {
+			isa = PBXGroup;
+			children = (
+				3864ADC4220890D80022389B /* Meal_ReminderTests.m */,
+				3864ADC6220890D80022389B /* Info.plist */,
+			);
+			path = "Meal ReminderTests";
+			sourceTree = "<group>";
+		};
+		3864ADCE220890D80022389B /* Meal ReminderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3864ADCF220890D80022389B /* Meal_ReminderUITests.m */,
+				3864ADD1220890D80022389B /* Info.plist */,
+			);
+			path = "Meal ReminderUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3864ADA7220890D50022389B /* Meal Reminder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3864ADD4220890D80022389B /* Build configuration list for PBXNativeTarget "Meal Reminder" */;
+			buildPhases = (
+				3864ADA4220890D50022389B /* Sources */,
+				3864ADA5220890D50022389B /* Frameworks */,
+				3864ADA6220890D50022389B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Meal Reminder";
+			productName = "Meal Reminder";
+			productReference = 3864ADA8220890D50022389B /* Meal Reminder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3864ADBF220890D80022389B /* Meal ReminderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3864ADD7220890D80022389B /* Build configuration list for PBXNativeTarget "Meal ReminderTests" */;
+			buildPhases = (
+				3864ADBC220890D80022389B /* Sources */,
+				3864ADBD220890D80022389B /* Frameworks */,
+				3864ADBE220890D80022389B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3864ADC2220890D80022389B /* PBXTargetDependency */,
+			);
+			name = "Meal ReminderTests";
+			productName = "Meal ReminderTests";
+			productReference = 3864ADC0220890D80022389B /* Meal ReminderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3864ADCA220890D80022389B /* Meal ReminderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3864ADDA220890D80022389B /* Build configuration list for PBXNativeTarget "Meal ReminderUITests" */;
+			buildPhases = (
+				3864ADC7220890D80022389B /* Sources */,
+				3864ADC8220890D80022389B /* Frameworks */,
+				3864ADC9220890D80022389B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3864ADCD220890D80022389B /* PBXTargetDependency */,
+			);
+			name = "Meal ReminderUITests";
+			productName = "Meal ReminderUITests";
+			productReference = 3864ADCB220890D80022389B /* Meal ReminderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3864ADA0220890D50022389B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Inspire One";
+				TargetAttributes = {
+					3864ADA7220890D50022389B = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					3864ADBF220890D80022389B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 3864ADA7220890D50022389B;
+					};
+					3864ADCA220890D80022389B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 3864ADA7220890D50022389B;
+					};
+				};
+			};
+			buildConfigurationList = 3864ADA3220890D50022389B /* Build configuration list for PBXProject "Meal Reminder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3864AD9F220890D50022389B;
+			productRefGroup = 3864ADA9220890D50022389B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3864ADA7220890D50022389B /* Meal Reminder */,
+				3864ADBF220890D80022389B /* Meal ReminderTests */,
+				3864ADCA220890D80022389B /* Meal ReminderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3864ADA6220890D50022389B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3864ADB8220890D80022389B /* LaunchScreen.storyboard in Resources */,
+				3864ADB5220890D80022389B /* Assets.xcassets in Resources */,
+				3864ADB3220890D50022389B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3864ADBE220890D80022389B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3864ADC9220890D80022389B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3864ADA4220890D50022389B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3864ADB0220890D50022389B /* ViewController.m in Sources */,
+				3864ADBB220890D80022389B /* main.m in Sources */,
+				3864ADAD220890D50022389B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3864ADBC220890D80022389B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3864ADC5220890D80022389B /* Meal_ReminderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3864ADC7220890D80022389B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3864ADD0220890D80022389B /* Meal_ReminderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3864ADC2220890D80022389B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3864ADA7220890D50022389B /* Meal Reminder */;
+			targetProxy = 3864ADC1220890D80022389B /* PBXContainerItemProxy */;
+		};
+		3864ADCD220890D80022389B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3864ADA7220890D50022389B /* Meal Reminder */;
+			targetProxy = 3864ADCC220890D80022389B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3864ADB1220890D50022389B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3864ADB2220890D50022389B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3864ADB6220890D80022389B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3864ADB7220890D80022389B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3864ADD2220890D80022389B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3864ADD3220890D80022389B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3864ADD5220890D80022389B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Meal Reminder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "inspireone.tech.Meal-Reminder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3864ADD6220890D80022389B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Meal Reminder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "inspireone.tech.Meal-Reminder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3864ADD8220890D80022389B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Meal ReminderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "inspireone.tech.Meal-ReminderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meal Reminder.app/Meal Reminder";
+			};
+			name = Debug;
+		};
+		3864ADD9220890D80022389B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Meal ReminderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "inspireone.tech.Meal-ReminderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meal Reminder.app/Meal Reminder";
+			};
+			name = Release;
+		};
+		3864ADDB220890D80022389B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Meal ReminderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "inspireone.tech.Meal-ReminderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Meal Reminder";
+			};
+			name = Debug;
+		};
+		3864ADDC220890D80022389B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Meal ReminderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "inspireone.tech.Meal-ReminderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Meal Reminder";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3864ADA3220890D50022389B /* Build configuration list for PBXProject "Meal Reminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3864ADD2220890D80022389B /* Debug */,
+				3864ADD3220890D80022389B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3864ADD4220890D80022389B /* Build configuration list for PBXNativeTarget "Meal Reminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3864ADD5220890D80022389B /* Debug */,
+				3864ADD6220890D80022389B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3864ADD7220890D80022389B /* Build configuration list for PBXNativeTarget "Meal ReminderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3864ADD8220890D80022389B /* Debug */,
+				3864ADD9220890D80022389B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3864ADDA220890D80022389B /* Build configuration list for PBXNativeTarget "Meal ReminderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3864ADDB220890D80022389B /* Debug */,
+				3864ADDC220890D80022389B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3864ADA0220890D50022389B /* Project object */;
+}
