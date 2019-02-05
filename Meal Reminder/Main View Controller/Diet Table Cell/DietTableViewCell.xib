@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="DietTableViewCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="DietTableViewCell" rowHeight="58" id="KGk-i7-Jjw" customClass="DietTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="407" height="58"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="407" height="57.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="5TN-rc-Zan">
+                        <rect key="frame" x="0.0" y="10" width="42.5" height="19.5"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="NyW-aH-Kzq">
+                        <rect key="frame" x="0.0" y="31.5" width="35.5" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ALM-Xx-E6F">
+                        <rect key="frame" x="349.5" y="0.0" width="57.5" height="57.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add Reminder" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="fQW-HR-ETe">
+                                <rect key="frame" x="0.0" y="0.0" width="57.5" height="57.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" red="0.10980392160000001" green="0.50980392159999999" blue="0.6588235294" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B2l-6i-jFm">
+                                <rect key="frame" x="0.0" y="0.0" width="57.5" height="57.5"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="B2l-6i-jFm" firstAttribute="leading" secondItem="ALM-Xx-E6F" secondAttribute="leading" id="494-jH-T05"/>
+                            <constraint firstAttribute="width" secondItem="ALM-Xx-E6F" secondAttribute="height" multiplier="1:1" id="9Qe-fH-zrE"/>
+                            <constraint firstItem="B2l-6i-jFm" firstAttribute="top" secondItem="ALM-Xx-E6F" secondAttribute="top" id="I5K-fD-3uB"/>
+                            <constraint firstAttribute="trailing" secondItem="fQW-HR-ETe" secondAttribute="trailing" id="Jtd-7S-iK4"/>
+                            <constraint firstAttribute="bottom" secondItem="B2l-6i-jFm" secondAttribute="bottom" id="Mu4-cb-axN"/>
+                            <constraint firstItem="fQW-HR-ETe" firstAttribute="leading" secondItem="ALM-Xx-E6F" secondAttribute="leading" id="QJp-i0-sGv"/>
+                            <constraint firstAttribute="bottom" secondItem="fQW-HR-ETe" secondAttribute="bottom" id="Ru7-gP-wmM"/>
+                            <constraint firstAttribute="trailing" secondItem="B2l-6i-jFm" secondAttribute="trailing" id="ecM-GO-ZUp"/>
+                            <constraint firstItem="fQW-HR-ETe" firstAttribute="top" secondItem="ALM-Xx-E6F" secondAttribute="top" id="hO0-OY-xCm"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="NyW-aH-Kzq" firstAttribute="top" secondItem="5TN-rc-Zan" secondAttribute="bottom" constant="2" id="97v-3v-8Kz"/>
+                    <constraint firstItem="ALM-Xx-E6F" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="ASd-fR-X6z"/>
+                    <constraint firstItem="NyW-aH-Kzq" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="SOu-ng-Xe5"/>
+                    <constraint firstAttribute="bottom" secondItem="ALM-Xx-E6F" secondAttribute="bottom" id="fH7-Jz-diO"/>
+                    <constraint firstAttribute="trailing" secondItem="ALM-Xx-E6F" secondAttribute="trailing" id="icp-fJ-9e0"/>
+                    <constraint firstItem="5TN-rc-Zan" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="k4l-3L-KBf"/>
+                    <constraint firstItem="5TN-rc-Zan" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="tcn-RU-JFL"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="add_reminder" destination="B2l-6i-jFm" id="Rmy-uH-Dgc"/>
+                <outlet property="add_reminder_content_view" destination="ALM-Xx-E6F" id="h4G-P9-Ebu"/>
+                <outlet property="food_name_label" destination="5TN-rc-Zan" id="IXm-Lv-Jym"/>
+                <outlet property="meal_time_label" destination="NyW-aH-Kzq" id="0VM-rt-Gwa"/>
+            </connections>
+            <point key="canvasLocation" x="124" y="68.365817091454275"/>
+        </tableViewCell>
+    </objects>
+</document>

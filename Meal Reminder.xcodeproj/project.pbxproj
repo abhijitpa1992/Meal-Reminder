@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22073B6919D53BE1DC8438D5 /* libPods-Meal ReminderTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EC22A3B61CE88F1CB9C34AE /* libPods-Meal ReminderTests.a */; };
+		2A8B6268295F86C4393675F3 /* libPods-Meal Reminder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A89A7EFAB422237F88F9846 /* libPods-Meal Reminder.a */; };
 		3864ADAD220890D50022389B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3864ADAC220890D50022389B /* AppDelegate.m */; };
 		3864ADB0220890D50022389B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3864ADAF220890D50022389B /* ViewController.m */; };
 		3864ADB3220890D50022389B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3864ADB1220890D50022389B /* Main.storyboard */; };
@@ -15,6 +17,13 @@
 		3864ADBB220890D80022389B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3864ADBA220890D80022389B /* main.m */; };
 		3864ADC5220890D80022389B /* Meal_ReminderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3864ADC4220890D80022389B /* Meal_ReminderTests.m */; };
 		3864ADD0220890D80022389B /* Meal_ReminderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3864ADCF220890D80022389B /* Meal_ReminderUITests.m */; };
+		38912AFB22095E3300910850 /* EMVerticalSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 38912AF922095E3300910850 /* EMVerticalSegmentedControl.m */; };
+		38912B042209694F00910850 /* DietTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 38912B022209694F00910850 /* DietTableViewCell.m */; };
+		38912B052209694F00910850 /* DietTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38912B032209694F00910850 /* DietTableViewCell.xib */; };
+		38912B0B22096AC400910850 /* JSONManeger.m in Sources */ = {isa = PBXBuildFile; fileRef = 38912B0722096AC300910850 /* JSONManeger.m */; };
+		38912B0C22096AC400910850 /* JsonAPICall.m in Sources */ = {isa = PBXBuildFile; fileRef = 38912B0922096AC300910850 /* JsonAPICall.m */; };
+		38912B1022096F6E00910850 /* DietChartModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 38912B0F22096F6E00910850 /* DietChartModel.m */; };
+		E553B1908A87C14A466084BF /* libPods-Meal ReminderUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 51B742813DB01E1BCE50A261 /* libPods-Meal ReminderUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,26 @@
 		3864ADCB220890D80022389B /* Meal ReminderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Meal ReminderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3864ADCF220890D80022389B /* Meal_ReminderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Meal_ReminderUITests.m; sourceTree = "<group>"; };
 		3864ADD1220890D80022389B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38912AF922095E3300910850 /* EMVerticalSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMVerticalSegmentedControl.m; sourceTree = "<group>"; };
+		38912AFA22095E3300910850 /* EMVerticalSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMVerticalSegmentedControl.h; sourceTree = "<group>"; };
+		38912B012209694F00910850 /* DietTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DietTableViewCell.h; sourceTree = "<group>"; };
+		38912B022209694F00910850 /* DietTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DietTableViewCell.m; sourceTree = "<group>"; };
+		38912B032209694F00910850 /* DietTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DietTableViewCell.xib; sourceTree = "<group>"; };
+		38912B0722096AC300910850 /* JSONManeger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONManeger.m; sourceTree = "<group>"; };
+		38912B0822096AC300910850 /* JSONManeger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONManeger.h; sourceTree = "<group>"; };
+		38912B0922096AC300910850 /* JsonAPICall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonAPICall.m; sourceTree = "<group>"; };
+		38912B0A22096AC400910850 /* JsonAPICall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonAPICall.h; sourceTree = "<group>"; };
+		38912B0E22096F6E00910850 /* DietChartModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DietChartModel.h; sourceTree = "<group>"; };
+		38912B0F22096F6E00910850 /* DietChartModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DietChartModel.m; sourceTree = "<group>"; };
+		468D9E55F264930C608FED62 /* Pods-Meal ReminderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meal ReminderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Meal ReminderTests/Pods-Meal ReminderTests.release.xcconfig"; sourceTree = "<group>"; };
+		4FEA3561E7D377FE5208289D /* Pods-Meal Reminder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meal Reminder.release.xcconfig"; path = "Pods/Target Support Files/Pods-Meal Reminder/Pods-Meal Reminder.release.xcconfig"; sourceTree = "<group>"; };
+		4FFD71448661AA94D4B3D052 /* Pods-Meal ReminderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meal ReminderUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Meal ReminderUITests/Pods-Meal ReminderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		51B742813DB01E1BCE50A261 /* libPods-Meal ReminderUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Meal ReminderUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A89A7EFAB422237F88F9846 /* libPods-Meal Reminder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Meal Reminder.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68EE1D7A20666312776FF805 /* Pods-Meal ReminderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meal ReminderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Meal ReminderTests/Pods-Meal ReminderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D3E8CD96CF7A6A1BAB85ACF /* Pods-Meal ReminderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meal ReminderUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Meal ReminderUITests/Pods-Meal ReminderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8EC22A3B61CE88F1CB9C34AE /* libPods-Meal ReminderTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Meal ReminderTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF452CA7D46346E920839621 /* Pods-Meal Reminder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meal Reminder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Meal Reminder/Pods-Meal Reminder.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A8B6268295F86C4393675F3 /* libPods-Meal Reminder.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22073B6919D53BE1DC8438D5 /* libPods-Meal ReminderTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E553B1908A87C14A466084BF /* libPods-Meal ReminderUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,10 +113,14 @@
 		3864AD9F220890D50022389B = {
 			isa = PBXGroup;
 			children = (
+				38912B0622096AB200910850 /* JSON Manager */,
+				38912AF722095E0400910850 /* Third Party */,
 				3864ADAA220890D50022389B /* Meal Reminder */,
 				3864ADC3220890D80022389B /* Meal ReminderTests */,
 				3864ADCE220890D80022389B /* Meal ReminderUITests */,
 				3864ADA9220890D50022389B /* Products */,
+				A7E13E230EDCDF44D11ED032 /* Pods */,
+				E86A0BB3B6AF2FA71CA2EFB9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +137,8 @@
 		3864ADAA220890D50022389B /* Meal Reminder */ = {
 			isa = PBXGroup;
 			children = (
-				3864ADAB220890D50022389B /* AppDelegate.h */,
-				3864ADAC220890D50022389B /* AppDelegate.m */,
-				3864ADAE220890D50022389B /* ViewController.h */,
-				3864ADAF220890D50022389B /* ViewController.m */,
+				38912AFD220968E000910850 /* App Delegate */,
+				38912AFF220968F400910850 /* Main View Controller */,
 				3864ADB1220890D50022389B /* Main.storyboard */,
 				3864ADB4220890D80022389B /* Assets.xcassets */,
 				3864ADB6220890D80022389B /* LaunchScreen.storyboard */,
@@ -132,6 +166,96 @@
 			path = "Meal ReminderUITests";
 			sourceTree = "<group>";
 		};
+		38912AF722095E0400910850 /* Third Party */ = {
+			isa = PBXGroup;
+			children = (
+				38912AF822095E2400910850 /* EMVerticleSegment */,
+			);
+			path = "Third Party";
+			sourceTree = "<group>";
+		};
+		38912AF822095E2400910850 /* EMVerticleSegment */ = {
+			isa = PBXGroup;
+			children = (
+				38912AFA22095E3300910850 /* EMVerticalSegmentedControl.h */,
+				38912AF922095E3300910850 /* EMVerticalSegmentedControl.m */,
+			);
+			path = EMVerticleSegment;
+			sourceTree = "<group>";
+		};
+		38912AFD220968E000910850 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				3864ADAB220890D50022389B /* AppDelegate.h */,
+				3864ADAC220890D50022389B /* AppDelegate.m */,
+			);
+			path = "App Delegate";
+			sourceTree = "<group>";
+		};
+		38912AFF220968F400910850 /* Main View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3864ADAE220890D50022389B /* ViewController.h */,
+				3864ADAF220890D50022389B /* ViewController.m */,
+				38912B0D22096F5100910850 /* Diet Chart Model */,
+				38912B002209690300910850 /* Diet Table Cell */,
+			);
+			path = "Main View Controller";
+			sourceTree = "<group>";
+		};
+		38912B002209690300910850 /* Diet Table Cell */ = {
+			isa = PBXGroup;
+			children = (
+				38912B012209694F00910850 /* DietTableViewCell.h */,
+				38912B022209694F00910850 /* DietTableViewCell.m */,
+				38912B032209694F00910850 /* DietTableViewCell.xib */,
+			);
+			path = "Diet Table Cell";
+			sourceTree = "<group>";
+		};
+		38912B0622096AB200910850 /* JSON Manager */ = {
+			isa = PBXGroup;
+			children = (
+				38912B0A22096AC400910850 /* JsonAPICall.h */,
+				38912B0922096AC300910850 /* JsonAPICall.m */,
+				38912B0822096AC300910850 /* JSONManeger.h */,
+				38912B0722096AC300910850 /* JSONManeger.m */,
+			);
+			path = "JSON Manager";
+			sourceTree = "<group>";
+		};
+		38912B0D22096F5100910850 /* Diet Chart Model */ = {
+			isa = PBXGroup;
+			children = (
+				38912B0E22096F6E00910850 /* DietChartModel.h */,
+				38912B0F22096F6E00910850 /* DietChartModel.m */,
+			);
+			path = "Diet Chart Model";
+			sourceTree = "<group>";
+		};
+		A7E13E230EDCDF44D11ED032 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF452CA7D46346E920839621 /* Pods-Meal Reminder.debug.xcconfig */,
+				4FEA3561E7D377FE5208289D /* Pods-Meal Reminder.release.xcconfig */,
+				68EE1D7A20666312776FF805 /* Pods-Meal ReminderTests.debug.xcconfig */,
+				468D9E55F264930C608FED62 /* Pods-Meal ReminderTests.release.xcconfig */,
+				4FFD71448661AA94D4B3D052 /* Pods-Meal ReminderUITests.debug.xcconfig */,
+				6D3E8CD96CF7A6A1BAB85ACF /* Pods-Meal ReminderUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E86A0BB3B6AF2FA71CA2EFB9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A89A7EFAB422237F88F9846 /* libPods-Meal Reminder.a */,
+				8EC22A3B61CE88F1CB9C34AE /* libPods-Meal ReminderTests.a */,
+				51B742813DB01E1BCE50A261 /* libPods-Meal ReminderUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +263,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3864ADD4220890D80022389B /* Build configuration list for PBXNativeTarget "Meal Reminder" */;
 			buildPhases = (
+				01BC1EB0916251EE3B759FF0 /* [CP] Check Pods Manifest.lock */,
 				3864ADA4220890D50022389B /* Sources */,
 				3864ADA5220890D50022389B /* Frameworks */,
 				3864ADA6220890D50022389B /* Resources */,
@@ -156,6 +281,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3864ADD7220890D80022389B /* Build configuration list for PBXNativeTarget "Meal ReminderTests" */;
 			buildPhases = (
+				ECC0EBA4E67E13B7010B228B /* [CP] Check Pods Manifest.lock */,
 				3864ADBC220890D80022389B /* Sources */,
 				3864ADBD220890D80022389B /* Frameworks */,
 				3864ADBE220890D80022389B /* Resources */,
@@ -174,6 +300,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3864ADDA220890D80022389B /* Build configuration list for PBXNativeTarget "Meal ReminderUITests" */;
 			buildPhases = (
+				25C94807827D7DC7D2136169 /* [CP] Check Pods Manifest.lock */,
 				3864ADC7220890D80022389B /* Sources */,
 				3864ADC8220890D80022389B /* Frameworks */,
 				3864ADC9220890D80022389B /* Resources */,
@@ -238,6 +365,7 @@
 				3864ADB8220890D80022389B /* LaunchScreen.storyboard in Resources */,
 				3864ADB5220890D80022389B /* Assets.xcassets in Resources */,
 				3864ADB3220890D50022389B /* Main.storyboard in Resources */,
+				38912B052209694F00910850 /* DietTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +385,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		01BC1EB0916251EE3B759FF0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Meal Reminder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		25C94807827D7DC7D2136169 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Meal ReminderUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECC0EBA4E67E13B7010B228B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Meal ReminderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3864ADA4220890D50022389B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38912AFB22095E3300910850 /* EMVerticalSegmentedControl.m in Sources */,
 				3864ADB0220890D50022389B /* ViewController.m in Sources */,
 				3864ADBB220890D80022389B /* main.m in Sources */,
+				38912B0B22096AC400910850 /* JSONManeger.m in Sources */,
+				38912B1022096F6E00910850 /* DietChartModel.m in Sources */,
 				3864ADAD220890D50022389B /* AppDelegate.m in Sources */,
+				38912B0C22096AC400910850 /* JsonAPICall.m in Sources */,
+				38912B042209694F00910850 /* DietTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,9 +623,11 @@
 		};
 		3864ADD5220890D80022389B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF452CA7D46346E920839621 /* Pods-Meal Reminder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HYGAWW3WF2;
 				INFOPLIST_FILE = "Meal Reminder/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -449,9 +641,11 @@
 		};
 		3864ADD6220890D80022389B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FEA3561E7D377FE5208289D /* Pods-Meal Reminder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HYGAWW3WF2;
 				INFOPLIST_FILE = "Meal Reminder/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -465,6 +659,7 @@
 		};
 		3864ADD8220890D80022389B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68EE1D7A20666312776FF805 /* Pods-Meal ReminderTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -483,6 +678,7 @@
 		};
 		3864ADD9220890D80022389B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 468D9E55F264930C608FED62 /* Pods-Meal ReminderTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -501,6 +697,7 @@
 		};
 		3864ADDB220890D80022389B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FFD71448661AA94D4B3D052 /* Pods-Meal ReminderUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Meal ReminderUITests/Info.plist";
@@ -518,6 +715,7 @@
 		};
 		3864ADDC220890D80022389B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D3E8CD96CF7A6A1BAB85ACF /* Pods-Meal ReminderUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Meal ReminderUITests/Info.plist";
